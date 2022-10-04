@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Generated App',
+      title: 'programaçao de ordenaçao de numero',
       theme: new ThemeData(
         primarySwatch: Colors.red,
         primaryColor: const Color(0xFFf44336),
@@ -151,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
     int pN, sN, tN;
     pN = int.parse(pNumero.text);
     sN = int.parse(sNumero.text);
-    tN = int.parse(tNumero.text);
+    tN = int.parse(digite a segunda);
     setState(() {
       if ((pN > sN) && (pN > tN)) {
         if (sN > tN) {
